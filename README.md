@@ -28,6 +28,6 @@ NOTE: TeleSign's legacy Voice API (https://enterprise.telesign.com/legacy-produc
 1. Download the code (voice_and_score.py).
 2. Give TeleSign the exact URL that you will set up your customer server with.
 3. Take the virtual phone number you bought, and in the code, change virtual_number = 'Buy a virtual number from TeleSign' to virtual_number = 'Your purchased US-based virtual number'
-4. For auth_key put in the Basic Authentication version of your customer ID and API key. You can read more a bout setting up Basic Authentication here - https://enterprise.telesign.com/api-reference/authentication#basic-authentication
+4. For auth_key put in the Basic Authentication version of your customer ID and API key. You can read more about setting up Basic Authentication here - https://enterprise.telesign.com/api-reference/authentication#basic-authentication
 5. For customer_service_number and finance_department_number, put in phone numbers you want to call during a test of the code. 
 6. Run your server and try it out! 
