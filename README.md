@@ -8,7 +8,9 @@ Special thanks to Filipe Silvestre and Jeremy Squier for working on the *[Python
 Using TeleSign's powerful new Voice API and the Score API, you can combine them to block scammers from calling your number. 
 
 # What's in this Project
-You buy a phone number from TeleSign and provide TeleSign with the URL for your server. When someone calls your designated TeleSign phone number, TeleSign routes an incoming call event to the server at the URL you provided. Your server code uses TeleSign's Score API to evaluate whether the caller should be let into the system or not. If the caller's score is low enough, the caller makes it into a mini Interactive Voice Response (IVR) system where you can choose from a menu whether to call option 1 or option 2. You can change up what's included in the system using TeleSign's Voice API documentation, provided here: https://enterprise.telesign.com/api-reference/apis/voice
+You buy a phone number from TeleSign and provide TeleSign with the URL for your server. When someone calls your designated TeleSign phone number, TeleSign routes an incoming call event to the server at the URL you provided. Your server code uses TeleSign's Score API to evaluate whether the caller should be let into the system or not. The way Score works, is it assigns a lower score to a phone number if it's a good phone number, and a higher score if the phone number seems sketchy. 
+
+If a caller's score is low enough, the caller makes it into a mini Interactive Voice Response (IVR) system where you can choose from a menu whether to call option 1 or option 2. You can change up what's included in the system using TeleSign's Voice API documentation, provided here: https://enterprise.telesign.com/api-reference/apis/voice
 
 # Prerequisites 
 To get started implementing this project, you should:
