@@ -1,3 +1,5 @@
+[![Link Checker](https://github.com/erikkai/voice_and_score/actions/workflows/link-checker.yml/badge.svg)](https://github.com/erikkai/voice_and_score/actions/workflows/link-checker.yml)
+
 # voice_and_score
 Block robocalls and other fraudulent callers by combining TeleSign's Score and Voice APIs! When a call comes in, Score evaluates the caller's phone number and decides whether to block the caller from reaching you, or let the phone number through.
 
