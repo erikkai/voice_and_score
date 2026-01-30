@@ -21,7 +21,7 @@ To get started implementing this project, you should:
 
 * Be familiar with Python 3 (that's what the code sample is in)
 * Have access to TeleSign's Score API - request access to this when you sign up for the Voice API 
-* Have access to TeleSign's Voice API - Sign up for your trial here - https://info.telesign.com/Voice.html 
+* Have access to TeleSign's Voice API - Sign up for your trial here - <!-- [Dead Link, no replacement available](https://info.telesign.com/Voice.html) --> 
 * Buy a virtual US telephone number using TeleSign's Phone Numbers API - <!-- [Dead Link, no replacement available](https://enterprise.telesign.com/api-reference/apis/phone-numbers-api/get-started) -->
 * Have a server set up that you can give TeleSign the URL for (you give this manually to your Customer Success Manager) 
 
